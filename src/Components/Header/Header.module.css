@@ -1,0 +1,15 @@
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: green;
+}
+.header>.headerlogo{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.header>.headertext{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    color: white;
+    text-align: center;
+}

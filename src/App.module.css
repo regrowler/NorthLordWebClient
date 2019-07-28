@@ -1,0 +1,23 @@
+.app_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr;
+
+}
+.nav_wrap{
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+}
+.content_wrap{
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 7;
+
+}
+.header_wrap{
+    grid-column-start: 1;
+    grid-column-end: 7;
+
+}
